@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/dist/
+server/dist/
+dist/
+
+# Environment Variables
+.env
+server/.env
+client/.env
+*.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
